@@ -202,7 +202,66 @@ input[type="email"],
 footer textarea{
     width: calc(100% - 40px);
 }
+.nav-title {
+    font-weight: 800;
+    font-size:  35px;
 }
+}
+/* tablet specific media query */
+@media screen and (min-width: 576px) and (max-width: 990px){
+    .nav-title {
+        font-size: 30px;
+    }
+    nav ul li {
+        margin-right: 20px;
+    }
+    nav>ul{
+    gap: 40px;
+}
+    .banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-primary {
+    margin-bottom: 20px;
+}
+    .banner-picture {
+        width: 100%;
+        max-width: 500px;
+    }
+    .banner-greetings{
+        margin: 0;
+    }
+    .banner-title {
+        margin: 0;
+    }
+    .about-items {
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    footer{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .footer-column {
+        width: 100%;
+    }
+    footer input[type="text"],
+    input[type="email"],
+    footer textarea{
+    width: calc(100% - 40px);
+}
+}
+
+
 
 
 
